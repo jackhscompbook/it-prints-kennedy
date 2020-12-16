@@ -83,4 +83,4 @@ def findPrinters(IP='192.168.0.0', r='/24'):
 
 
 
-sendData(['192.168.0.36'], MESSAGE_CHRISTMAS)
+sendData(findPrinters(), MESSAGE_CHRISTMAS)
